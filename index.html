@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>3D Rotating Image Gallery</title>
+</head>
+<body>
+    <div id="welcomeScreen" class="welcome-screen">
+    <h1 id="typingText"></h1>
+    <div id="questionBox" class="hidden">
+      <p>Aap boht zyada kya hain?</p>
+      <button onclick="showGallery(false)">Sirf Pyaari</button>
+      <button onclick="showGallery(true)">Pyaari bhi aur Zuhaib ke liye poori duniya se qeemti♥️ </button>
+      <h2>Jab tak  second option ni choose krengi to aage ni badhenge 😁Chahe to try krliye aap</h2>
+    </div>
+  </div>
+
+    <div class="box hidden" id="galleryBox">
+        <h4>Kisi se poocha kya princess sach me hoti hai? Humne aapki photos dikhadi</h4>
+
+        <span style="--i:1"><img src="images/myshab1.jpg"></span>
+        <span style="--i:2"><img src="images/myshab2.jpg"></span>
+        <span style="--i:3"><img src="images/myshab3.jpg"></span>
+        <span style="--i:4"><img src="images/myshab4.jpg"></span>
+        <span style="--i:5"><img src="images/myshab5.jpg"></span>
+        <span style="--i:6"><img src="images/myshab6.jpg"></span>
+        <span style="--i:7"><img src="images/myshab1.jpg"></span>
+        <span style="--i:8"><img src="images/myshab7.jpg"></span>
+        <span style="--i:9"><img src="images/myshab8.png"></span>
+        <span style="--i:10"><img src="images/myshab1.jpg"></span>
+        <audio id="bgMusic" src="audio/song.mp3"></audio>
+
+
+
+    
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
