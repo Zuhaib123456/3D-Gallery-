@@ -1,5 +1,5 @@
 // Typing effect
-const text = "Welcome most beautiful ❤️ girl in the world 🌎";
+const text = "Welcome, the  most beautiful ❤️ girl in the world 🌎";
 let index = 0;
 const typingText = document.getElementById("typingText");
 const questionBox = document.getElementById("questionBox");
